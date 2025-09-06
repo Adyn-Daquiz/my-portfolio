@@ -8,34 +8,34 @@ const nextBtn = modal.querySelector(".next");
 // ===== Slides for each project =====
 const projectSlides = {
   wis: [
-    "images/PsiWIS1.PNG",
-    "images/PsiWIS2.PNG",
-    "images/PsiWIS3.PNG",
-    "images/PsiWIS4.PNG",
-    "images/PsiWIS5.PNG"
+    "images/PsiWIS1a.png",
+    "images/PsiWIS2a.png",
+    "images/PsiWIS3a.png",
+    "images/PsiWIS4a.png",
+    "images/PsiWIS5a.png"
   ],
   wis2: [
-    "images/GaffcoWIS1.PNG",
-    "images/GaffcoWIS2.PNG",
-    "images/GaffcoWIS3.PNG",
-    "images/GaffcoWIS4.PNG",
+    "images/gaffcowis1a.png",
+    "images/gaffcowis2a.png",
+    "images/gaffcowis3a.png",
+    "images/gaffcowis4a.png",
   ],
     eos: [
-    "images/GalcoEOS1.PNG",
-    "images/GalcoEOS3.PNG",
-    "images/GalcoEOS4.PNG",
-    "images/GalcoEOS5.PNG",
+    "images/galcoeos1a.png",
+    "images/galcoeos3a.png",
+    "images/galcoeos4a.png",
+    "images/galcoeos5a.png",
   ],
     inventory: [
-    "images/PsiInventory1.PNG",
-    "images/PsiInventory3.png",
-    "images/PsiInventory4.PNG",
+    "images/PsiInventory1a.png",
+    "images/PsiInventory3a.png",
+    "images/PsiInventory4a.png",
   ],
    serialporttest: [
-    "images/SerialPortTester.PNG",
+    "images/SerialPortTestera.png",
   ],
    sellersdiary: [
-    "images/SellersDiary.PNG",
+    "images/SellersDiary.png",
   ],
    mipro: [
     "images/Mipro1.png",
