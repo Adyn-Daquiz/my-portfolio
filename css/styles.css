@@ -124,27 +124,30 @@ h2{font-size:1.6rem;margin:0 0 1rem}
     }
 	
 .project-carousel-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 10px; /* space between buttons and carousel */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .project-carousel {
   display: flex;
-  overflow: hidden;
-  gap: 1rem;
-  flex: 1; /* take remaining space */
+  gap: 16px; 
 }
 
-.project-carousel .card {
-  flex: 0 0 100%; /* Don't shrink, don't grow, take 100% width */
-  max-width: 100%;
-  transition: transform 0.3s ease;
+.project-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto; 
 }
 
 /* Carousel buttons */
 .carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
   cursor: pointer;
   font-size: 2rem;
   color: #60a5fa;
@@ -155,16 +158,10 @@ h2{font-size:1.6rem;margin:0 0 1rem}
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
 }
 
-.carousel-prev {
-  margin-right: 10px; /* space between button and carousel */
-}
-
-.carousel-next {
-  margin-left: 10px;  /* space between button and carousel */
-}
+.carousel-prev { left: 8px; }
+.carousel-next { right: 8px; }
 
 .skill-chip {
   display: inline-block;
