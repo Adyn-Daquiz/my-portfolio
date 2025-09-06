@@ -11,7 +11,10 @@
 .cta-row{display:flex;gap:.75rem;margin-top:1rem}
 .btn{display:inline-block;border:1px solid #334155;padding:.6rem .9rem;border-radius:.7rem;text-decoration:none;color:#e2e8f0}
 .btn.primary{background:#2563eb;border-color:#2563eb}
-.section{padding:3rem 0;color:#e2e8f0}
+.section {
+  padding: 3rem 1rem;
+  color: #e2e8f0;
+}
 h2{font-size:1.6rem;margin:0 0 1rem}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
 .card{background:#0f172a;border:1px solid #1e293b;border-radius:1rem;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.2);width:50%;}
