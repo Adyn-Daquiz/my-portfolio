@@ -32,7 +32,7 @@ const projectSlides = {
     "images/PsiInventory4a.png",
   ],
    serialporttest: [
-    "images/SerialPortTestera.png",
+    "images/SerialPortTesteraa.png",
   ],
    sellersdiary: [
     "images/SellersDiary.png",
